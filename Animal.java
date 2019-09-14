@@ -1,4 +1,4 @@
-import java.util.Comparable;
+
 
 public class Animal implements Comparable<Animal>{
 
@@ -33,6 +33,9 @@ public class Animal implements Comparable<Animal>{
 		return this.getName().compareTo(o.getName());
 	}
 
+	public String toString() {
+		return "" + name + " with" + legs + " legs";
+	}
 
 
 
